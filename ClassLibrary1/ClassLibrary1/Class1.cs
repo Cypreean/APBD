@@ -8,14 +8,14 @@ public class Class1
     
     static double averageg ( int[] tab)
     {
-        double srednia = 0;
+        double sredniaa = 0;
         for (int i = 0; i < tab.Length; i++)
         {
-            srednia += tab[i];
+            sredniaa += tab[i];
         }
 
-        srednia = srednia / tab.Length;
-        return srednia;
+        sredniaa = sredniaa / tab.Length;
+        return sredniaa;
 
 
 
