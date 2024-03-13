@@ -20,4 +20,24 @@ public class Class1
 
 
     }
+
+    static int findmax(int[] tab)
+    {
+        int? najwieksza = null;
+        for (int i = 0; i < tab.Length; i++)
+        {
+            if (najwieksza == null)
+            {
+                najwieksza = tab[i];
+            }
+
+            if (tab[i] > najwieksza)
+            {
+                najwieksza = tab[i];
+            }
+        }
+
+        return (int)najwieksza;
+
+    }
 }
